@@ -60,7 +60,8 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
     </div>
     </template>
 
-4.  Via via creerò le sezioni e le aggiungerò nell'App.
+4.  Ogni sezione avrà un <style>, dovre dovrò mettere 'scoped' per limitare lo stile in quella singola App e non nelle altre.
+5.  Via via creerò le sezioni e le aggiungerò nell'App.
 
 [4] NOTE UTILI
 
