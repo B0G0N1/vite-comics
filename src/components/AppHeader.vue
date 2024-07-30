@@ -59,8 +59,8 @@ export default {
 <template lang="">
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex justify-content-between pt-3">
-                <img src="../assets/img/dc-logo.png">
+            <div class="col-12 d-flex justify-content-between">
+                <img src="../assets/img/dc-logo.png" class="py-2">
                 <div class="d-flex list-unstyled align-items-center">
                     <div v-for="link, index in links" :key="index" :class="link.current ? 'active' : ''" class="d-flex align-items-center h-100 mx-2">
                         <a :href="link.url" class="text-decoration-none text-uppercase fw-bold">{{ link.label }}</a>
