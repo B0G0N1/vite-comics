@@ -1,11 +1,13 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMainContent from './components/AppMainContent.vue';
+import AppPromotion from './components/AppPromotion.vue';
 
 export default {
   components: {
     AppHeader,
-    AppMainContent
+    AppMainContent,
+    AppPromotion
   }
 }
 </script>
@@ -13,6 +15,7 @@ export default {
   <div>
     <AppHeader/>
     <AppMainContent/>
+    <AppPromotion/>
   </div>
 </template>
 <style lang="scss">
