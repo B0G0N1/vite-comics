@@ -4,24 +4,24 @@ export default {
         return {
             social: [
                 {
-                    img: "#",
-                    url: "../assets/img/footer-facebook.png"
+                    img: "/images/footer-facebook.png",
+                    url: "#"
                 },
                 {
-                    img: "#",
-                    url: "../assets/img/footer-twitter.png"
+                    img: "/images/footer-twitter.png",
+                    url: "#"
                 },
                 {
-                    img: "#",
-                    url: "../assets/img/footer-youtube.png"
+                    img: "/images/footer-youtube.png",
+                    url: "#"
                 },
                 {
-                    img: "#",
-                    url: "../assets/img/footer-periscope.png"
+                    img: "/images/footer-pinterest.png",
+                    url: "#"
                 },
                 {
-                    img: "#",
-                    url: "../assets/img/footer-periscope.png"
+                    img: "/images/footer-periscope.png",
+                    url: "#"
                 }
             ]
         }
@@ -36,7 +36,7 @@ export default {
                     <button class="text-white fw-bold p-2">SIGN-UP NOW!</button>
                     <div class="d-flex align-items-center">
                         <h4 class="m-0 me-3">FOLLOW US</h4>
-                        <img v-for="(icon, index) in social" :key="'social-' + index" v-bind:src="icon.img" class="mx-2">
+                        <img v-for="(icon, index) in social" :key="'social-' + index" :src="icon.img" class="mx-2">
                     </div>                    
                 </div>
             </div>
