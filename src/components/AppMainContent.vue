@@ -1,21 +1,23 @@
 <script>
+import AppComicSeries from './AppComicSeries.vue';
+
 export default {
-    
+    components: {
+        AppComicSeries
+    }
 }
 </script>
 <template lang="">
     <div class="bg-black">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="d-flex align-items-center text-white py-5 fs-5">
-                        <p class="m-0">--> Content goes here <--</p>
-                    </div>
-                </div>
-            </div>
+        <div class="container position-relative text-center">
+            <div class="current_series position-absolute translate-middle-y fw-bold text-white p-2">CURRENT SERIES</div>
+            <AppComicSeries/>
+            <button class="text-white fw-bold py-2 px-5 border-0 mb-4">LOAD MORE</button>
         </div>
     </div>
 </template>
-<style lang="">
-    
+<style lang="scss" scoped>
+    .current_series, button {
+        background-color: #0282f9;
+    }
 </style>

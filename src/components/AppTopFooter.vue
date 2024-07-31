@@ -121,7 +121,7 @@ export default {
                 <div class="col-2">
                     <h4 class="text-white mb-1">DC COMICS</h4>
                     <ul class="text-white list-unstyled">
-                        <li v-for="(link, index) in dcComics" :key="'comics-' + index" class="text-capitalize">
+                        <li v-for="(link, index) in dcComics" :key="'dcComics-' + index" class="text-capitalize">
                             <a :href=link.url class="text-decoration-none text-reset" >{{ link.text }}</a>
                         </li>
                     </ul>
