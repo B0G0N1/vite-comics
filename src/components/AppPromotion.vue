@@ -34,7 +34,7 @@ export default {
             <div class="row p-3">
                 <div v-for="(item, index) in promotions" :key="'prom-' + index" class="col text-white d-flex justify-content-center align-items-center">
                     <img :src="item.img" class="me-2">
-                    <p class="m-0 text-uppercase fs-5">{{ item.text }}</p>
+                    <p class="m-0 text-uppercase">{{ item.text }}</p>
                 </div>
             </div>
         </div>
@@ -46,5 +46,8 @@ export default {
     }
     img {
         height: 50px;
+    }
+    p {
+        font-size: 14px;
     }
 </style>

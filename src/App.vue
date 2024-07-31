@@ -5,6 +5,7 @@ import AppMainContent from './components/AppMainContent.vue';
 import AppPromotion from './components/AppPromotion.vue';
 import AppTopFooter from './components/AppTopFooter.vue';
 import AppBottomFooter from './components/AppBottomFooter.vue';
+import AppJumbotron from './components/AppJumbotron.vue';
 
 export default {
   components: {
@@ -12,13 +13,15 @@ export default {
     AppMainContent,
     AppPromotion,
     AppTopFooter,
-    AppBottomFooter
+    AppBottomFooter,
+    AppJumbotron
   }
 }
 </script>
 <template lang="">
   <div>
     <AppHeader/>
+    <AppJumbotron/>
     <AppMainContent/>
     <AppPromotion/>
     <AppTopFooter/>

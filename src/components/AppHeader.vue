@@ -73,11 +73,15 @@ export default {
 <style lang="scss" scoped>
     a {
         color: darkgrey;
+        font-size: 14px;
     }
     .active {
-        border-bottom: 0.5rem solid #0282f9;
+        border-bottom: 3px solid #0282f9;
         a {
             color: #0282f9;
         }
+    }
+    img {
+        height: 80px;
     }
 </style>

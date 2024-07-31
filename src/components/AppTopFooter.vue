@@ -116,7 +116,7 @@ export default {
 </script>
 <template lang="">
     <div class="top_footer">
-        <div class="container py-5">
+        <div class="container py-4">
             <div class="row">
                 <div class="col-2">
                     <h4 class="text-white mb-1">DC COMICS</h4>
@@ -164,6 +164,10 @@ export default {
             background-position: right center;
             background-size: auto 130%;
             background-repeat: no-repeat;
+        }
+
+        a {
+            font-size: 14px;
         }
     }
 </style>
