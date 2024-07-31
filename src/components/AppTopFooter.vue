@@ -121,13 +121,13 @@ export default {
                 <div class="col-2">
                     <h4 class="text-white mb-1">DC COMICS</h4>
                     <ul class="text-white list-unstyled">
-                        <li v-for="(link, index) in dcComics" :key="'dcComics-' + index" class="text-capitalize">
+                        <li v-for="(link, index) in dcComics" :key="'dcComics-' + index" class="text-capitalize lh-sm">
                             <a :href=link.url class="text-decoration-none text-reset" >{{ link.text }}</a>
                         </li>
                     </ul>
                     <h4 class="text-white my-1">SHOP</h4>
                     <ul class="text-white list-unstyled">
-                        <li v-for="(link, index) in shop" :key="'shop' + index" class="text-capitalize">
+                        <li v-for="(link, index) in shop" :key="'shop' + index" class="text-capitalize lh-sm">
                             <a :href=link.url class="text-decoration-none text-reset" >{{ link.text }}</a>
                         </li>
                     </ul>
@@ -135,7 +135,7 @@ export default {
                 <div class="col-2">
                     <h4 class="text-white mb-1">DC</h4>
                     <ul class="text-white list-unstyled">
-                        <li v-for="(link, index) in dc" :key="'dc-' + index" class="text-capitalize">
+                        <li v-for="(link, index) in dc" :key="'dc-' + index" class="text-capitalize lh-sm">
                             <a :href=link.url class="text-decoration-none text-reset" >{{ link.text }}</a>
                         </li>
                     </ul>
@@ -143,7 +143,7 @@ export default {
                 <div class="col-2">
                     <h4 class="text-white mb-1">SITES</h4>
                     <ul class="text-white list-unstyled">
-                        <li v-for="(link, index) in sites" :key="'sites-' + index" class="text-capitalize">
+                        <li v-for="(link, index) in sites" :key="'sites-' + index" class="text-capitalize lh-sm">
                             <a :href=link.url class="text-decoration-none text-reset" >{{ link.text }}</a>
                         </li>
                     </ul>
@@ -167,7 +167,11 @@ export default {
         }
 
         a {
-            font-size: 14px;
+            font-size: 12px;
+            color: darkgray;
+        }
+        h4 {
+            font-size: 20px;
         }
     }
 </style>
